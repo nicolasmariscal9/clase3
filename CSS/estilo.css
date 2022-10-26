@@ -1,0 +1,46 @@
+/*COMENTARIOS*/
+/* CSS - APLICAMOS ESTILO A NUESTRO DOCUMENTO*/
+
+/*
+selector{
+    propiedades: valor
+}
+*/
+
+h1 {
+    color: green;
+}
+
+/* selector es la herramienta que me permite una etiqueta o un grupo de etiquetas en html*/
+
+/* color: es la propiedad que me permite asignar un color a las fuentes*/
+
+p{
+    color: red;
+}
+
+/* ahora todos los parrafos del documento tienen la propiedad de color:red*/
+
+/* si yo quiero ser mas especifico a la horade aplicar estilos*/
+
+#parrafoFooter {
+    color: blueviolet;
+}
+
+.parrafo{
+    color: blue;
+}
+
+
+/* PRINCIPIOS CSS*/
+
+/* Cascada = */
+
+h1{
+    color: aquamarine !important;
+}
+
+h1{
+    color: brown;
+}
+
